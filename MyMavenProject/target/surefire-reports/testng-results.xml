@@ -2,16 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="maintest.TestBase" duration-ms="10100" started-at="2016-04-08T17:12:27Z" finished-at="2016-04-08T17:12:37Z">
+  <suite name="Example test run" duration-ms="15236" started-at="2016-04-09T15:05:54Z" finished-at="2016-04-09T15:06:10Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="10100" started-at="2016-04-08T17:12:27Z" finished-at="2016-04-08T17:12:37Z">
+    <test name="Simple Test" duration-ms="15236" started-at="2016-04-09T15:05:54Z" finished-at="2016-04-09T15:06:10Z">
       <class name="maintest.TestBase">
-        <test-method status="PASS" signature="f()[pri:0, instance:maintest.TestBase@36d64342]" name="f" duration-ms="10090" started-at="2016-04-08T22:42:27Z" finished-at="2016-04-08T22:42:37Z">
+        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:maintest.TestBase@1e643faf]" name="f" duration-ms="15224" started-at="2016-04-09T20:35:54Z" finished-at="2016-04-09T20:36:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- maintest.TestBase -->
-    </test> <!-- Command line test -->
-  </suite> <!-- maintest.TestBase -->
+    </test> <!-- Simple Test -->
+  </suite> <!-- Example test run -->
 </testng-results>
