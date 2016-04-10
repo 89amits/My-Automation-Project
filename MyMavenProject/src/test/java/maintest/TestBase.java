@@ -1,5 +1,6 @@
 package maintest;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
@@ -12,9 +13,10 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class TestBase {
-	FileInputStream fis =new FileInputStream("F://Git//MyMavenProject//Config.file");
-	Properties prop =new Properties();
-	prop.
+	File f=new File("F://Git//MyMavenProject//Config.file");
+	FileInputStream fis =new FileInputStream(f);
+    Properties prop = new Properties();
+    prop.load(fis);
   @Test
   @Parameters({"browser_name"})
   public void f(String browser_name) throws InterruptedException {
