@@ -26,7 +26,7 @@ public class TestBase {
 	   Properties prop = new Properties();
 	   prop.load(fis);
 	  //String browser_name="Chrome";
-  System.out.println("hello");
+  System.out.println("hello world");
   if(browser_name.equalsIgnoreCase("Firefox")){
   FirefoxDriver driver = new FirefoxDriver();
   driver.get(prop.getProperty("BaseUrl"));
