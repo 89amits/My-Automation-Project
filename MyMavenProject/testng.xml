@@ -3,7 +3,8 @@
   <test name="Simple Test">
   <parameter name="browser_name" value="Firefox" />
     <classes>
-      <class name="maintest.TestBase"/>
+<class name="maintest.TestBase" />
     </classes>
   </test>
+
 </suite>
